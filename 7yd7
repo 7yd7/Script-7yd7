@@ -1,0 +1,37 @@
+-- مهم جدا
+workspace.FallenPartsDestroyHeight = -50000
+local placeId = game.PlaceId
+
+-- اللوج ( غير مجبور اذا كنت تريده او لا او مسحه )
+if placeId == 13600599498 or placeId == 6520999642 or placeId == 7314148798 then
+local url = "https://raw.githubusercontent.com/7yd7/7yd7/main/log" -- اللوج
+loadstring(game:HttpGet(url))()
+end
+
+-- اضافه العاب بعد كلمه placeId == ID then الجمله ID الماب 
+-- اذا كنت تريد تضيف اكثر من ID نفس ماب اكتب بعد ID اكتب or placeId == ID then يجب ان يكون اخر شي then
+
+
+if placeId == 13600599498 then
+print("1 يشتغل")
+elseif placeId == 6520999642 then
+print("2 يشتغل")
+elseif placeId == 7314148798 then
+print("يشتغل 3")
+else
+
+
+
+-- خارج نطاق ID game
+local url = "https://raw.githubusercontent.com/7yd7/7yd7/main/log-no-game" -- اللوج ( غير مجبور اذا كنت تريد او لا )
+loadstring(game:HttpGet(url))()
+
+
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "الماب لا يوجد سكربت له";
+ Text = "اذا كنت تريد سكربت ابحث متصفح او يوتيوب";
+ Icon = "";
+ Duration = 5;
+ Callback = NotificationBindable;
+})
+end
