@@ -6,6 +6,7 @@ player:Kick("بلاك ليست (سوف يتم عمل ريجوين لك بعد ك
 wait(1.5)
 game:GetService("TeleportService"):Teleport(game.PlaceId, game:GetService("Players").LocalPlayer)
 
+-- اللوج بلاك ليست
 end
 
 
