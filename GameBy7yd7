@@ -1,3 +1,14 @@
+local player = game.Players.localPlayer
+-- اعطاء لاعبين بلاك ليست
+if player.name == "afwafwwgwe22" or player.name == "اسم لاعب اخر" then
+player:Kick("بلاك ليست (سوف يتم عمل ريجوين لك بعد كم ثانيه)")
+
+wait(1.5)
+game:GetService("TeleportService"):Teleport(game.PlaceId, game:GetService("Players").LocalPlayer)
+
+end
+
+
 -- مهم جدا
 workspace.FallenPartsDestroyHeight = -50000
 local placeId = game.PlaceId
