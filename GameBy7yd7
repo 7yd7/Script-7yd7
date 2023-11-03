@@ -1,6 +1,6 @@
 local player = game.Players.localPlayer
 -- اعطاء لاعبين بلاك ليست
-if player.name == "afwafwwgwe22" or player.name == "اسم لاعب اخر" then
+if player.name == "اسم لاعب" or player.name == "اسم لاعب اخر" then
 
 -- اللوج بلاك ليست
 local url = "https://raw.githubusercontent.com/7yd7/7yd7/main/log-blacklist" -- اللوج
