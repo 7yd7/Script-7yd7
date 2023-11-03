@@ -3,7 +3,7 @@ local player = game.Players.localPlayer
 if player.name == "اسم لاعب" or player.name == "اسم لاعب اخر" then
 player:Kick("بلاك ليست (سوف يتم عمل ريجوين لك بعد كم ثانيه)")
 
-wait(1.5)
+wait(2)
 game:GetService("TeleportService"):Teleport(game.PlaceId, game:GetService("Players").LocalPlayer)
 
 -- اللوج بلاك ليست
