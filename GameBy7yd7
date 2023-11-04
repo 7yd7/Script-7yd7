@@ -1,3 +1,4 @@
+-- مخصص بلاك ليست
 local player = game.Players.localPlayer
 -- اعطاء لاعبين بلاك ليست
 if player.name == "اسم لاعب" or player.name == "اسم لاعب اخر" then
@@ -23,8 +24,14 @@ local placeId = game.PlaceId
 
 -- اللوج ( غير مجبور اذا كنت تريده او لا او مسحه )
 if placeId == 13600599498 or placeId == 11984550654 or placeId == 10598963932 or placeId == 10659321502 or placeId == 13122706381 or placeId == 13618858186 or placeId == 4954752502 or placeId == 2965497514 then
+-- تشغيل سكربت + دخول لاعب
 local url = "https://raw.githubusercontent.com/7yd7/7yd7/main/log" -- اللوج
 loadstring(game:HttpGet(url))()
+
+-- خرج لاعب
+local url = "https://raw.githubusercontent.com/7yd7/7yd7/main/log-Leaves" -- اللوج
+loadstring(game:HttpGet(url))()
+
 
 game.StarterGui:SetCore("SendNotification",  {
  Title = "انتظر تحميل سكربت";
@@ -100,7 +107,3 @@ game.StarterGui:SetCore("SendNotification",  {
  Callback = NotificationBindable;
 })
 end
-
--- خرج لاعب
-local url = "https://raw.githubusercontent.com/7yd7/7yd7/main/log-Leaves" -- اللوج
-loadstring(game:HttpGet(url))()
