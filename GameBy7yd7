@@ -28,11 +28,6 @@ if placeId == 13600599498 or placeId == 11984550654 or placeId == 10598963932 or
 local url = "https://raw.githubusercontent.com/7yd7/7yd7/main/log" -- اللوج
 loadstring(game:HttpGet(url))()
 
--- خرج لاعب
-local url = "https://raw.githubusercontent.com/7yd7/7yd7/main/log-Leaves" -- اللوج
-loadstring(game:HttpGet(url))()
-
-
 game.StarterGui:SetCore("SendNotification",  {
  Title = "انتظر تحميل سكربت";
  Text = "By : 7yd7";
