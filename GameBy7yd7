@@ -23,7 +23,7 @@ workspace.FallenPartsDestroyHeight = -50000
 local placeId = game.PlaceId
 
 -- اللوج ( غير مجبور اذا كنت تريده او لا او مسحه )
-if placeId == 13600599498 or placeId == 11984550654 or placeId == 10598963932 or placeId == 10659321502 or placeId == 13122706381 or placeId == 2965497514 or placeId == 14859854878 or placeId == 14145719997 or placeId == 15078024559 then
+if placeId == 13600599498 or placeId == 11984550654 or placeId == 10598963932 or placeId == 10659321502 or placeId == 13122706381 or placeId == 2965497514 or placeId == 14859854878 or placeId == 14145719997 or placeId == 15078024559 or placeId == 15149196683 then
 -- تشغيل سكربت + دخول لاعب
 local url = "https://raw.githubusercontent.com/7yd7/7yd7/main/log" -- اللوج
 loadstring(game:HttpGet(url))()
@@ -89,6 +89,9 @@ elseif placeId == 15078024559 then -- 🌯 العمل في مطعم شاورمر
 local url = "\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\55\121\100\55\47\83\99\114\105\112\116\45\71\97\109\101\47\109\97\105\110\47/Shawarmer-restaurant"
 loadstring(game:HttpGet(url))()
 
+elseif placeId == 15149196683 then -- بلايد بول العرب ☄️
+local url = "\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\55\121\100\55\47\83\99\114\105\112\116\45\71\97\109\101\47\109\97\105\110\47/Arab-Bull-Blade"
+loadstring(game:HttpGet(url))()
 
 else
 
