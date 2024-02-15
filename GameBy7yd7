@@ -4,7 +4,7 @@ local player = game.Players.localPlayer
 if player.name == "لاعب" or player.name == "اسم لاعب اخر" then
 
 -- اللوج بلاك ليست
-local url = "https://raw.githubusercontent.com/7yd7/7yd7/main/log-blacklist" -- اللوج
+local url = "https://raw.githubusercontent.com/7yd7/log-game-roblox-7yd7/main/log-blacklist" -- اللوج
 loadstring(game:HttpGet(url))()
 
 -- طرد لاعب
@@ -25,7 +25,7 @@ local placeId = game.PlaceId
 -- اللوج ( غير مجبور اذا كنت تريده او لا او مسحه )
 if placeId == 13600599498 or placeId == 11984550654 or placeId == 10598963932 or placeId == 10659321502 or placeId == 13122706381 or placeId == 2965497514 or placeId == 14859854878 or placeId == 14145719997 or placeId == 15078024559 or placeId == 15587973262 or placeId == 8054462345 or placeId == 9544666096 or placeId == 15438487904 or placeId == 2768379856 or placeId == 9240295147 or placeId == 9240353587 or placeId == 3824662112 or placeId == 13003089266 or placeId == 13710713070 or placeId == 15606264830 or placeId == 11699829772 then 
 -- تشغيل سكربت + دخول لاعب
-local url = "https://raw.githubusercontent.com/7yd7/7yd7/main/log" -- اللوج
+local url = "https://raw.githubusercontent.com/7yd7/log-game-roblox-7yd7/main/log" -- اللوج
 loadstring(game:HttpGet(url))()
 
 game.StarterGui:SetCore("SendNotification",  {
@@ -124,7 +124,7 @@ else
 
 
 -- خارج نطاق ID game
-local url = "https://raw.githubusercontent.com/7yd7/7yd7/main/log-no-game" -- اللوج ( غير مجبور اذا كنت تريد او لا )
+local url = "https://raw.githubusercontent.com/7yd7/log-game-roblox-7yd7/main/log-no-game" -- اللوج ( غير مجبور اذا كنت تريد او لا )
 loadstring(game:HttpGet(url))()
 
 
