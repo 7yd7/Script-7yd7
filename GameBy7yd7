@@ -33,7 +33,7 @@ loadstring(game:HttpGet(url))()
 
 game.StarterGui:SetCore("SendNotification",  {
  Title = "انتظر تحميل سكربت";
- Text = "By : 7yd7";
+ Text = "By : VR7";
  Icon = "";
  Duration = 5;
  Callback = NotificationBindable;
@@ -43,7 +43,7 @@ wait(1.5)
 
 game.StarterGui:SetCore("SendNotification",  {
  Title = "تم تشغيل سكربت";
- Text = "By : 7yd7";
+ Text = "By : VR7";
  Icon = "";
  Duration = 5;
  Callback = NotificationBindable;
